@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="script" href="script.js">
+</head>
+
+<body>
+
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <img width="130" height="77"
+                src="https://amuziproindia.com/wp-content/uploads/2023/06/cropped-logo-2-130x77.png" class="custom-logo"
+                alt="Amuziproindia" decoding="async"
+                srcset="https://amuziproindia.com/wp-content/uploads/2023/06/cropped-logo-2-130x77.png 130w, https://amuziproindia.com/wp-content/uploads/2023/06/cropped-logo-2-300x178.png 300w, https://amuziproindia.com/wp-content/uploads/2023/06/cropped-logo-2-1024x609.png 1024w, https://amuziproindia.com/wp-content/uploads/2023/06/cropped-logo-2-768x457.png 768w, https://amuziproindia.com/wp-content/uploads/2023/06/cropped-logo-2-1536x914.png 1536w, https://amuziproindia.com/wp-content/uploads/2023/06/cropped-logo-2.png 1580w"
+                sizes="(max-width: 130px) 100vw, 130px">
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link active  text-white" aria-current="page"
+                            href="https://amuziproindia.com/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-white" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-white" href="#">Our Offerings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-white" href="#">Our Initiatives</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-white" href="#">Our Gallery</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle  text-white" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Admission
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Mohun Bagan Sports</a></li>
+                            <li><a class="dropdown-item" href="#">Academy</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-white" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-white" href="index.html">Turf Booking</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+    <br>
+    <!-- carousel -->
+    <div class="container">
+        <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="v1p1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="v1p2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="v1p3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <br>
+
+
+
+    <div style="padding:20px">
+        <h2>Turf Air Plaza For Football</h2>
+        <p>from ₹000</p>
+
+        
+        <div class="des">
+        </div>
+
+        <br>
+
+        <div class="book">
+            <b>Number of Player Participating:</b>
+            <input type="number" placeholder=" Enter no of players."><br> (1 to 25 ) Players<br><br><b>Select Your
+                Date:</b>
+            <div class="calendar">
+                <input type="date">
+            </div><br>
+            <b>Start:</b>
+            <input type="time">
+            <label for="duration">
+                <h4><b>Duration:</b>
+            </label>
+            <select name="duration" id="duration"
+                style="background-color: #000000c7; color: aliceblue;border-radius: 10px; height: 40px;box-shadow: 2px 2px 10px black; border: none; padding: 5px;">
+                <option value="30">30 minutes</option>
+                <option value="60">60 minutes</option>
+                <option value="90">90 minutes</option>
+                <option value="120">120 minutes</option>
+                </h4>
+            </select>
+            <button class="button-62" role="button">Submit</button>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
