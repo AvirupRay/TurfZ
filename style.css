@@ -194,11 +194,11 @@ h4 {
     #map {
         border: 0;
         position: absolute;
-        top: 1880px;
+        top: 1650px;
         left: 15px;
         border-radius: 20px;
         box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.418);
-        height: 25vh;
+        height: 45vh;
         width: 92vw;
     }
     .des {
