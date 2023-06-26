@@ -247,7 +247,7 @@ a:hover {
 @media only screen and (max-width: 992px) and (min-width: 600px) {
     #car {
         position: relative;
-        left: 0px;
+        left: -290px;
     }
     #map {
         border: 0;
