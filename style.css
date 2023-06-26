@@ -11,7 +11,7 @@
 /* carousel */
 #car{
     position: relative;
-    left: -90px;
+    left: -290px;
 }
 
 .carousel-inner {
@@ -214,6 +214,11 @@ a:hover {
 }
 
 @media only screen and (max-width: 600px) and (min-width: 476px) {
+
+    #car {
+        position: relative;
+        left: 0px;
+    }
     h4 {
         position: relative;
         top: 0px;
@@ -242,7 +247,7 @@ a:hover {
 @media only screen and (max-width: 992px) and (min-width: 600px) {
     #car {
         position: relative;
-        left: 0px
+        left: 0px;
     }
     #map {
         border: 0;
