@@ -129,11 +129,11 @@ h4 {
     color:#fff;
 }
 .footer h5{
-    color: #f5d020;
+    color: #ff9b38;
 }
 
 a:hover {
-    color: #f5d020;
+    color: #ff9b38;
 }
 
 
@@ -247,7 +247,7 @@ a:hover {
 @media only screen and (max-width: 992px) and (min-width: 600px) {
     #car {
         position: relative;
-        left: -290px;
+        left: 0px;
     }
     #map {
         border: 0;
